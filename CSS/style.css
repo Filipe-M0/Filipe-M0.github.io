@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    /* remove margens padrão */
+    padding: 0;
+    /* remove espaçamentos padrão */
+}
+
+header {
+    background-color: #2C3E50;
+    /* cor de fundo do cabeçalho */
+    color: white;
+    /* cor do texto do cabeçalho */
+    text-align: center;
+    /* centraliza o texto */
+    font-family: Arial, sans-serif;
+    /* mudar a fonte do texto */
+    height: 135px;
+    /* altura do cabeçalho */
+}
+
+header h1 {
+    padding: 25px;
+    /* espaçamento interno */
+}
+
+header nav ul li {
+    display: inline;
+    /* exibe os itens do menu em linha */
+    list-style-type: none;
+    /* remove os marcadores da lista */
+    margin: 0 20px;
+    /* espaçamento entre os itens */
+    font-family: Arial, sans-serif;
+    /* mudar a fonte do texto */
+    font-weight: bold;
+    /* meter a lista em negrito*/
+}
+
+header nav ul li a {
+    color: white;
+    /* cor dos links */
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    font-family: Arial, sans-serif;
+    /* mudar a fonte do texto */
+}
+
+header nav ul li a:visited {
+    color: white;
+    /* cor dos links visitados */
+}
+
+header nav ul li a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+    /* espaçamento interno */
+    font-family: Arial;
+    /* mudar a fonte do texto */
+    display: block;
+    max-width: 1100px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main img {
+    max-width: 200px;
+    /* largura máxima da imagem */
+    height: auto;
+    /* altura automática para manter a proporção */
+    display: block;
+    /* exibe a imagem como bloco */
+    margin: 10px auto;
+    /* centraliza a imagem horizontalmente */
+    /* Borda redonda à volta da imagem */
+    border-radius: 200px;
+    border: 4px solid #1abc9c;
+}
+
+main hr {
+    border: 0;
+    /* remove a borda padrão */
+    height: 2px;
+    /* define a altura da linha */
+    background-color: #1abc9c;
+    /* cor da linha */
+    margin: 20px 0;
+    /* espaçamento acima e abaixo da linha */
+}
+
+main h2 {
+    margin: 10px 0;
+    /* espaçamento acima e abaixo dos títulos */
+    color: #1abc9c;
+    /* cor dos títulos */
+}
+
+main h3 {
+    margin: 10px 0;
+    /* espaçamento acima e abaixo dos subtítulos */
+    color: #2A80BA;
+    /* cor dos subtítulos */
+}
+
+main div p {
+    padding: 15px 0;
+    /* espaçamento acima e abaixo dos parágrafos */
+
+}
+
+main table {
+    width: 100%;
+    /* largura da tabela */
+    border-collapse: collapse;
+    /* remove os espaços entre as células */
+    margin: 20px 0;
+    /* espaçamento acima e abaixo da tabela */
+}
+
+main table,
+main th,
+main td {
+    border: 1px solid #ddd;
+    /* borda das células */
+    padding: 8px;
+    /* espaçamento interno das células */
+    text-align: left;
+    /* alinha o texto à esquerda */
+}
+
+main thead {
+    background-color: #2A80BA;
+    /* cor de fundo do cabeçalho da tabela */
+    color: white;
+    /* cor do texto do cabeçalho da tabela */
+    font-weight: bold;
+}
+
+main ul li {
+    margin: 5px 0;
+    /* espaçamento entre os itens da lista */
+    list-style-position: inside;
+}
+
+main dl {
+    margin: 30px 0;
+    /* espaçamento acima e abaixo da lista de definições */
+}
+
+footer {
+    background-color: #2C3E50;
+    /* cor de fundo do rodapé */
+    color: white;
+    /* cor do texto do rodapé */
+
+    text-align: center;
+    /* centraliza o texto */
+    font-family: Arial, sans-serif;
+    /* mudar a fonte do texto */
+    padding: 10px;
+    /* espaçamento interno */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+    /* altura do rodapé */
+}
+
+footer p {
+    margin: 40px;
+    margin-bottom: 10px;
+    /* Espaçamento em cima e abaixo do texto */
+
+}
+
+footer a {
+    padding: 0 10px;
+    /* espaçamento entre os links */
+    color: white;
+    /* cor dos links */
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    font-family: Arial, sans-serif;
+    /* mudar a fonte do texto */
+}
